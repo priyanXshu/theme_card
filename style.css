@@ -6,7 +6,7 @@
 }
 html,
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #2a2a3b;
   height: 100%;
   width: 100%;
@@ -281,6 +281,7 @@ p {
   }
   .bg-border {
     position: absolute;
-    left: -14em;
+    height: 1000px;
+    left: -10em;
   }
 }
