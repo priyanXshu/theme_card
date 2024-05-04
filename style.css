@@ -121,7 +121,7 @@ p {
   border-right: 20px solid #f09666;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 600px)  {
   #cards {
     position: absolute;
     display: flex;
@@ -130,14 +130,14 @@ p {
     align-items: center;
   }
 
-  /* .left-card {
-        width: 450px;
-        height: 200px;
+  .left-card {
+        width: auto;
+        height: auto;
     }
 
     .right-card {
-        width: 280px;
-        height: 200px;
+        width: auto;
+        height: auto;
     }
 
     .content {
@@ -179,5 +179,86 @@ p {
     .bg-border {
         position: absolute;
         left: 50%;
-    } */
+    } 
+} */
+
+@media only screen and (max-width: 375px) {
+  #cards {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-card {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 5em;
+    left: 1em;
+  }
+
+  .right-card {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 41em;
+    right: -27em;
+  }
+
+  .content {
+    padding: 2.5em;
+  }
+  .content p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+  }
+  .content h2,
+  h3,
+  p {
+    padding: 6px;
+    font-size: 2em;
+  }
+
+  .content button {
+    height: 5em;
+    width: 12em;
+    font-size: 16px;
+    padding: 3.5px;
+  }
+
+  .project-content {
+    margin: 2.5em;
+  }
+
+  .project-content h4 {
+    font-size: 28px;
+  }
+
+  .project-content h4,
+  p {
+    padding: 10px;
+  }
+  .project-content p {
+    font-size: 20px;
+    padding-bottom: 2.8em;
+    line-height: 1.6em;
+  }
+  .project-content span {
+    position: absolute;
+    top: 3em;
+    font-size: 18px;
+  }
+  .project-content button {
+    height: 4em;
+    width: 14em;
+    font-size: 18px;
+    padding: 4px;
+  }
+  .bg-border {
+    position: absolute;
+    left: -6em;
+  }
 }
