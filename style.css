@@ -121,67 +121,6 @@ p {
   border-right: 20px solid #f09666;
 }
 
-/* @media only screen and (max-width: 600px)  {
-  #cards {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .left-card {
-        width: auto;
-        height: auto;
-    }
-
-    .right-card {
-        width: auto;
-        height: auto;
-    }
-
-    .content {
-        padding: 10px;
-    }
-    .content p {
-        font-size: 9px;
-        padding-bottom: 20px;
-    }
-    .content h2,h3,p {
-        padding: 4px;
-    }
-    .content button {
-        height: 2em;
-        width: 8em;
-        font-size: 12px;
-        padding: 5px;
-    }
-
-    .project-content {
-        margin: 2em;
-    }
-    .project-content h4,p {
-        padding: 5px;
-    }
-    .project-content p {
-        font-size: 9px;
-        padding-bottom: 2em;
-    }
-    .project-content span {
-        font-size: 9px;
-    }
-    .project-content button {
-        height: 3em;
-        width: 9em;
-        font-size: 12px;
-        padding: 5px;
-    }
-    .bg-border {
-        position: absolute;
-        left: 50%;
-    } 
-} */
-
 @media only screen and (max-width: 375px) {
   #cards {
     position: absolute;
@@ -260,5 +199,88 @@ p {
   .bg-border {
     position: absolute;
     left: -6em;
+  }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  #cards {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-card {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 4.5em;
+    left: 1.6em;
+  }
+
+  .right-card {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30em;
+    right: -24em;
+  }
+
+  .content {
+    padding: 2em;
+  }
+  .content p {
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    line-height: 1.2em;
+  }
+  .content h2,
+  h3,
+  p {
+    padding: 6px;
+    font-size: 1.2em;
+  }
+
+  .content button {
+    height: 3.7em;
+    width: 11em;
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .project-content {
+    margin: 2em;
+  }
+
+  .project-content h4 {
+    font-size: 20px;
+  }
+
+  .project-content h4,
+  p {
+    padding: 6px;
+  }
+  .project-content p {
+    font-size: 16px;
+    padding-bottom: 1.5em;
+    line-height: 1.4em;
+  }
+  .project-content span {
+    position: absolute;
+    top: 2.2em;
+    font-size: 18px;
+  }
+  .project-content button {
+    height: 3em;
+    width: 12em;
+    font-size: 16px;
+    padding: 3px;
+  }
+  .bg-border {
+    position: absolute;
+    left: -14em;
   }
 }
